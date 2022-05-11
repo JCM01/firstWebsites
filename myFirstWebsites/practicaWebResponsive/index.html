@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" 
+	content="width=device-width, initial-scale=1.0">
+	<meta name="Description"
+	content="Mi web Responsive con JavaScript">
+	<title>Web Responsive</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+     
+<div class="grid-container">
+  <div class="item1"> <label for="numero">Escribe un numero: </label>
+     <input type="number" placeholder="Por ejemplo, 1" id="numero" name="numero">
+     <button onclick="factorial();">Factorial</button>
+  </div>
+
+  <div class="item2">
+                    <p>
+                         <label>Selecciona un juego</label><br>
+                    <select id="juegos" onchange="verJuego();">
+                         <option value="last.jpg">
+                         The Last of Us
+                         </option>
+                         <option value="fallguys.jpg">
+                         Fallguys
+                         </option>
+                         <option value="fortnite.jpg">
+                         Fortnite
+                         </option>
+                         <option value="warface.jpg">
+                         Warface
+                         </option>
+                         <option value="mortalk.jpg">
+                         Mortal Kombat
+                         </option>
+                    </select> 
+                    </p>
+                    <img id="imagen" src="imagenes/last.jpg">
+                    </div>  
+
+  <div class="item3"><p>¿A que jugamos hoy?
+                              <button onclick="sacarImagenAzar();">Descubrelo</button>
+                         </p>
+                         <img id="imagen2" src="imagenes/fallguys.jpg"></div>
+
+  <div class="item4"> <label for="numero">Escribe un numero: </label>
+     <input type="number" placeholder="Por ejemplo, 2" id="numero2" name="numero">
+     <button onclick="par();">Par o Impar</button>
+
+</div>
+     
+</div>
+</body>
+</html>

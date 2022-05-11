@@ -1,0 +1,54 @@
+.item1 { grid-area: escribe1; }
+.item2 { grid-area: selecciona; }
+.item3 { grid-area: hoy; }
+.item4 { grid-area: escribe2; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+   
+    'selecciona selecciona selecciona hoy hoy hoy'
+    'escribe1 escribe1 escribe1 escribe2 escribe2 escribe2';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+img {
+  height: auto;
+  width: 300px;
+}
+
+
+/*
+@media screen and (max-width: 1000px){
+  	main {
+  	grid-template-areas:
+    'contenido contenido contenido banner banner banner'
+    'social social social pie pie pie';
+  	grid-gap: 10px;
+  	background-color: #2196F3;
+  	padding: 10px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  	main {
+  	grid-template-areas:
+    'contenido'
+    'banner'
+    'social'
+    'pie';
+  	grid-gap: 10px;
+  	background-color: #2196F3;
+  	padding: 10px;
+  }
+}
+*/
