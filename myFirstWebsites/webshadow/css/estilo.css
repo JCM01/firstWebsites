@@ -1,0 +1,64 @@
+h1{
+  text-shadow: 0 0 3px white, 0 0 5px white;
+  text-align: center;
+  font-size: 250%;
+
+}
+body {
+ background: rgb(93,20,52);
+background: radial-gradient(circle, rgba(93,20,52,1) 0%, rgba(127,172,226,1) 100%);
+
+}
+
+img {
+  display: block;
+  max-width:600px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+  margin-left:20px;
+  border-image: 30 stretch;
+  padding: 15px;
+  border: 10px solid transparent; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+}
+.media{
+  margin-bottom:40px;
+
+}
+.imgSec{
+  display: block;
+  max-width:600px;
+  max-height:230px;
+  width: auto;
+  height: auto;
+  margin-left:80px;
+}
+.imgMov{
+  display: block;
+  max-width:200px;
+  max-height:230px;
+  width: auto;
+  height: auto;
+  margin-left:80px;
+}
+.title{
+  margin-top:10px;
+  margin-bottom:10px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+}
+div {
+  color:white;
+}
+
+.frame {
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image: url(../imagenes/backgroundcyber.jpg) 30 stretch;
+}
+
