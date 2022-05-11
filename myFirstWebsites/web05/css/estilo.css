@@ -1,0 +1,53 @@
+p{
+	font-family: "color sans ms";
+	color: blue;
+}
+/*Selecciona todos Los elementos p dentro 
+de un elemento div*/
+
+div p{
+	color: green;
+}
+
+/* Todos Los span dentro de p
+	dentro de un div */
+div p span{
+	color: orange;
+
+}
+
+/* Todos Los h1 y todos Los h2
+ independientemente de donde estém situados */
+
+ h1, h2 {
+ 	background-color: aqua;
+ 	text-align: center;
+ }
+/* Todos Los elementos span 
+que tienen un p como padre*/
+ p>span {
+ 	background-color:;
+ }
+
+/*Elemento con id="parrafo1"*/
+
+#parrafo1{
+	color: white;
+	background-color: black;
+}
+
+/*Definición de una clase CSS
+que se aplican con el atributo class 
+de las etiquetas HTML*/
+.comico{
+	font-family:"comic sans ms";
+	color: red;
+	font-size: 70px;
+	background-color: black;
+}
+/*Parrafos que tienen el puntero de ratón por encima*/
+
+p:hover {
+	background-color: red;
+	color:white;
+}

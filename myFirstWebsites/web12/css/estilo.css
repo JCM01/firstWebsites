@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+}
+header {
+	position: absolute;
+	height: 135px;
+	width: 75%;
+	color: gold;
+	padding-top:15px;
+	padding-left: 25%;
+	background-color: darkblue;
+
+}
+a {
+	color: gold;
+	text-decoration: none;
+}
+
+section {
+	top: 150px;
+	position: absolute;
+	background-color:#0072FF;
+}
+
+article {
+	position: relative;
+	padding: 5px;
+	background-color: #0C43F5;
+	width: 300px;
+	margin: 5px;
+	float: left;
+}
+
+img { 
+	border-radius: 60%;
+	height: 50%;
+	width: 50%;
+	float: right;
+	margin: 15px;
+}
+
+footer{
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	background-color: gold;
+	color: black;
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+}
+
+a:hover {
+	background-color: #009EE7;
+	
+}

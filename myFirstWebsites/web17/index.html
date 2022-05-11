@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Botones de radio y casillas de verificacion</title>
+	
+</head>
+<body>
+		<form action="procesa.php" method="get">
+			<label for="nombre">Nombre: </label>
+			<input type="text" name="nombre">
+			<br>
+			<label for="estadoCivil">Estado Civil:</label>
+			<input type="radio" value="S" name="estadoCivil">Soltero
+			<input type="radio" value="C" name="estadoCivil">Casado
+			<input type="radio" value="V" name="estadoCivil">Viudo
+			<input type="radio" value="D"name="estadoCivil">Divorciado
+			<br>
+
+			<label>Indica tus aficiones</label>
+			<input type="checkbox" name="nadar" id="natar">Natacion
+			<input type="checkbox" name="senderimo" id="senderimo">Senderismo
+			<input type="checkbox" name="lectura" id="lectura">Lectura
+
+
+			<br>
+			<input type="button" value="comprobar datos" onclick="comprobar();">
+			
+			<input type="submit" name="Enviar datos">
+		</form>
+		<!--
+		<p onclick="this.innerText='Adios Mundo'">Hola Mundo</p>
+		<p onclick="this.innerText='Adios Mundo'">Hola Mundo</p>
+		<p onclick="this.innerText='Adios Mundo'">Hola Mundo</p>
+		-->
+		<p onclick="despedir(this);">Hola Mundo</p>
+		<p onclick="despedir(this);">Hola Mundo</p>
+		<p onclick="despedir(this);">Hola Mundo</p>
+
+		<h1 id="cabeceraSaludo">Hola Mundo</h1>
+
+		<h2 onclick="decirAlgo();">Hola Mundo</h2>
+		<h2 onclick="decirAlgo();">Hola Mundo</h2>
+		<h2 onclick="decirAlgo();">Hola Mundo</h2>
+		<h2 onclick="decirAlgo();">Hola Mundo</h2>
+
+		<input type="text" id="cajaTexto" onkeypress="comprobarTecla();">
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

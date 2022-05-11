@@ -1,0 +1,53 @@
+body{
+	background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.object {
+	width: 400px;
+	height: 200px;
+}
+#titleweb {
+	white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.media1 {
+	white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden; 
+  border: 1px solid #000000;
+}
+
+p.media1:hover {
+ overflow: visible
+}
+
+.media2 {
+	white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.media3 {
+	white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#texto1 {
+	width: 140px; 
+  border: 1px solid #000000;
+  word-break: keep-all;
+}
+
+#texto2 {
+	writing-mode: vertical-rl; 
+}

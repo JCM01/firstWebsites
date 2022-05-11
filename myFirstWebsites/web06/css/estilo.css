@@ -1,0 +1,27 @@
+table {
+	border-width: 4px;
+	border-style: solid;
+	border-color: red;
+	width: 100%;
+	/* Hace que las celdas estén unidas, no con separación */
+	border-collapse: collapse;
+}
+
+td, th {
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+}
+
+.derecha {
+	text-align: right;
+}
+tr:nth-child(even) {
+	/* Elementos pares*/
+	background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+	/* Elementos impares*/
+	background-color: aqua;
+}

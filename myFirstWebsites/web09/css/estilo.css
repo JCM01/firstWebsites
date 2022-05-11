@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+}
+#cabecera {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	left: 0px;
+	background-color: #13E318;
+	z-index: 2;
+	text-align: center;
+	font-family: "Comic sans MS";
+	font-size: 25px;
+	padding-top: 25px; 
+	
+       /* Estos 25px se suman a la altura de del contenedor */
+}
+
+#contenido {
+	position: absolute;
+	width: 98%;
+	top: 125px;
+	left: 0px;
+	height: 1300px;
+	background-color: purple;
+	z-index: 1;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+	color: black;
+
+}
+
+nav a {
+	background-color: #3424CA;
+	color:#F0DF1E;
+	text-decoration: none;
+	width: 150px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background: #090472;
+	color: white;
+}
+
+#img1 {
+	border-width: medium;
+ 	border-style: solid;
+ 	border-color: pink;
+ 
+}
+
+fieldset {
+	background-color: #EEE0EF;
+	text-align: left;
+	width: 70%;
+}
+
+legend {
+	background-color:#EEE0FF;
+}
+
+label {
+	width: 200px;
+	display: inline-block;
+}
+
+input:focus, textarea:focus, select:focus {
+     background-color: aqua;
+     
+}
